@@ -3,6 +3,7 @@ Flask-Cors
 Werkzeug
 langchain
 openai
+dotenv
 langchain-openai 
 Gunicorn
 langchain_experimental
