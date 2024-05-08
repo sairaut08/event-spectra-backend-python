@@ -4,6 +4,7 @@ Werkzeug
 langchain
 openai
 python-dotenv
+dotenv
 langchain-openai 
 Gunicorn
 langchain_experimental
