@@ -8,6 +8,7 @@ import os
 port = os.getenv('PORT')
 load_dotenv()
 
+
 app = Flask(__name__)
 CORS(app)
 
