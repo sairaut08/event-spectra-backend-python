@@ -24,7 +24,7 @@ def process_question():
             return jsonify({'error': 'No category provided'})
 
         file_name = f"MegaProject.{category.lower()}.csv"
-        file_path = os.path.join("./", file_name)
+        file_path = os.path.join(app.instance_path, file_name)
 
         if not os.path.exists(file_path):
             return jsonify({'error': 'CSV file not found'})
