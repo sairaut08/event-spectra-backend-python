@@ -7,4 +7,3 @@ python-dotenv
 langchain-openai 
 Gunicorn
 langchain_experimental
-freeze
